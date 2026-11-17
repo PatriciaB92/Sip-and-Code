@@ -1,0 +1,32 @@
+WHAT YOU LEARNED: 
+
+You built a small text adventure in Python. The game shows a story, asks the player questions, and changes what happens based on their answers.
+
+Python basics
+- A program is a set of instructions that a computer follows in order.
+- print() displays a message on the screen.
+- Text is written inside quotation marks. This kind of value is called a string.
+- A variable is a named place to store information for later.
+- You stored text such as the player name, character class, weapon, and found item.
+- You stored a whole number for the player's health.
+
+Getting answers from the player
+- input() asks a question and waits for the player to type an answer and press Enter.
+- You saved answers in variables and used them in the story.
+- .strip() removes extra spaces at the start and end of an answer.
+- .lower() makes an answer lowercase, so choices such as LEFT, Left, and left can match.
+
+Making choices
+- if checks whether a condition is true.
+- elif checks another possible answer.
+- else gives a result when the earlier choices do not match.
+- == checks whether two values are equal. A single = stores a value in a variable.
+- Indentation (spaces at the start of a line) shows which story lines belong to each choice.
+
+In the adventure game, you added a title screen, personalized the hero, and created choices. Different choices lead to different story outcomes.
+
+When something goes wrong:
+Read the error message and check the line it points to, plus the line above it. Look for missing quotes, parentheses, colons, misspelled variable names, or indentation. Change one thing and run the program again.
+
+Keep practicing
+Make one small change to the story, run the program, and see what happens. You can add dialogue, a new item, or another ending using the same ideas.
